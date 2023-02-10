@@ -24,20 +24,28 @@
 }
 .itemactions{
     font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Oblique";
-    background-color: #2B2B2B;
-    width: 10%;
-    float: right;
+    background-color: #A5A4A5;
+    text-align: left;
+    text-transform: uppercase;
+    width: 25%;
 }
 .itembutton {
     font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Oblique";
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 0px;
     background-color: #14C6F6;
-    -webkit-box-shadow: 0px 0px 4px #0B0B0B;
-    box-shadow: 0px 0px 4px #0B0B0B;
-    width: 100%;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border-width: 2px;
+    width: 48%;
+    border-style: solid;
+    float: none;
 }
 .item {
     clear: left;
@@ -50,8 +58,10 @@
 <h1 class="heading">Frostie Studios</h1>
 </body>
 <div class="item">
-	<h2 class="headingforitem">RSL</h2>
+   <h2 class="headingforitem">RSL</h2>
 	<p>Rouge Server Launcher</p>
-	<button class="itembutton" onClick="">Download</button>
-    <button class="itembutton" onClick="">View on GitHub</button>
+	<div class="itemactions">
+	    <button class="itembutton" onClick="">Download</button>
+        <button class="itembutton" onClick="">View on GitHub</button>
+	</div>
 </div>
